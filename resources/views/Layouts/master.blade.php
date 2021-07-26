@@ -6,21 +6,21 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>HRIS System</title>
-  <link rel="stylesheet" href="../assets/vendors/iconfonts/ti-icons/css/themify-icons.css">
+  <link rel="stylesheet" href="../../assets/vendors/iconfonts/ti-icons/css/themify-icons.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-sweetalert/1.0.1/sweetalert.css" integrity="sha512-f8gN/IhfI+0E9Fc/LKtjVq4ywfhYAVeMGKsECzDUHcFJ5teVwvKTqizm+5a84FINhfrgdvjX8hEJbem2io1iTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="../assets/vendors/iconfonts/mdi/css/materialdesignicons.min.css">
-  <link rel="stylesheet" href="../assets/vendors/iconfonts/flag-icon-css/css/flag-icon.min.css">
-  <link rel="stylesheet" href="../assets/vendors/iconfonts/simple-line-icon/css/simple-line-icons.css">
-  <link rel="stylesheet" href="../assets/vendors/css/vendor.bundle.base.css">
-  <link rel="stylesheet" href="../assets/vendors/css/vendor.bundle.addons.css">
+  <link rel="stylesheet" href="../../assets/vendors/iconfonts/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="../../assets/vendors/iconfonts/flag-icon-css/css/flag-icon.min.css">
+  <link rel="stylesheet" href="../../assets/vendors/iconfonts/simple-line-icon/css/simple-line-icons.css">
+  <link rel="stylesheet" href="../../assets/vendors/css/vendor.bundle.base.css">
+  <link rel="stylesheet" href="../../assets/vendors/css/vendor.bundle.addons.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/fontawesome.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" />
   <link rel="stylesheet" href="path/to/line-awesome/css/line-awesome-font-awesome.min.css">
   <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <script src="https://kit.fontawesome.com/32f2c595ba.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="../assets/css/style.css">
-  <link rel="shortcut icon" href="../assets/images/favicon.png" />
+  <link rel="stylesheet" href="../../assets/css/style.css">
+  <link rel="shortcut icon" href="../../assets/images/favicon.png" />
 </head>
 <style type="text/css">
   .modal-content, .content-wrapper{
@@ -75,67 +75,67 @@
     }
   </script>
   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-  <script src="../assets/vendors/js/vendor.bundle.base.js"></script>
-  <script src="../assets/vendors/js/vendor.bundle.addons.js"></script>
-  <script src="../assets/js/off-canvas.js"></script>
-  <script src="../assets/js/hoverable-collapse.js"></script>
-  <script src="../assets/js/misc.js"></script>
-  <script src="../assets/js/settings.js"></script>
-  <script src="../assets/js/todolist.js"></script>
-  <script src="../assets/js/avgrund.js"></script>
-  <script src="../assets/js/bt-maxLength.js"></script>
-  <script src="../assets/js/c3.js"></script>
-  <script src="../assets/js/chart.js"></script>
-  <script src="../assets/js/chartist.js"></script>
-  <script src="../assets/js/clipboard.js"></script>
-  <script src="../assets/js/codeEditor.js"></script>
-  <script src="../assets/js/context-menu.js"></script>
-  <script src="../assets/js/data-table.js"></script>
-  <script src="../assets/js/db.js"></script>
-  <script src="../assets/js/dekstop-notification.js"></script>
-  <script src="../assets/js/dragula.js"></script>
-  <script src="../assets/js/dropity.js"></script>
-  <script src="../assets/js/dropzone.js"></script>
-  <script src="../assets/js/editorDemo.js"></script>
-  <script src="../assets/js/file-upload.js"></script>
-  <script src="../assets/js/float-chart.js"></script>
-  <script src="../assets/js/form-addons.js"></script>
-  <script src="../assets/js/form-repeater.js"></script>
-  <script src="../assets/js/form-validation.js"></script>
-  <script src="../assets/js/formpickers.js"></script>
-  <script src="../assets/js/google-charts.js"></script>
-  <script src="../assets/js/google-maps.js"></script>
-  <script src="../assets/js/horizontal-menu.js"></script>
-  <script src="../assets/js/iCheck.js"></script>
-  <script src="../assets/js/ion-range-slider.js"></script>
-  <script src="../assets/js/jq.tablesort.js"></script>
-  <script src="../assets/js/jquery-file-upload.js"></script>
-  <script src="../assets/js/select2.js"></script>
-  <script src="../assets/js/morris.js"></script>
-  <script src="../assets/js/js-grid.js"></script>
-  <script src="../assets/js/just-gage.js"></script>
-  <script src="../assets/js/light-gallery.js"></script>
-  <script src="../assets/js/mapeal.js"></script>
-  <script src="../assets/js/mapeal_example_2.js"></script>
-  <script src="../assets/js/mapeal_example_3.js"></script>
-  <script src="../assets/js/maps.js"></script>
-  <script src="../assets/js/misc.js"></script>
-  <script src="../assets/js/modal-demo.js"></script>
-  <script src="../assets/js/morris.js"></script>
-  <script src="../assets/js/no-ui-slider.js"></script>
-  <script src="../assets/js/owl-carousel.js"></script>
-  <script src="../assets/js/paginate.js"></script>
-  <script src="../assets/js/popover.js"></script>
-  <script src="../assets/js/progress-bar.js"></script>
-  <script src="../assets/js/sparkline.js"></script>
-  <script src="../assets/js/tablesorter.js"></script>
-  <script src="../assets/js/tabs.js"></script>
-  <script src="../assets/js/tight-grid.js"></script>
-  <script src="../assets/js/toastDemo.js"></script>
-  <script src="../assets/js/tooltips.js"></script>
-  <script src="../assets/js/typehead.js"></script>
-  <script src="../assets/js/wizard.js"></script>
-  <script src="../assets/js/x-editable.js"></script>
+  <script src="../../assets/vendors/js/vendor.bundle.base.js"></script>
+  <script src="../../assets/vendors/js/vendor.bundle.addons.js"></script>
+  <script src="../../assets/js/off-canvas.js"></script>
+  <script src="../../assets/js/hoverable-collapse.js"></script>
+  <script src="../../assets/js/misc.js"></script>
+  <script src="../../assets/js/settings.js"></script>
+  <script src="../../assets/js/todolist.js"></script>
+  <script src="../../assets/js/avgrund.js"></script>
+  <script src="../../assets/js/bt-maxLength.js"></script>
+  <script src="../../assets/js/c3.js"></script>
+  <script src="../../assets/js/chart.js"></script>
+  <script src="../../assets/js/chartist.js"></script>
+  <script src="../../assets/js/clipboard.js"></script>
+  <script src="../../assets/js/codeEditor.js"></script>
+  <script src="../../assets/js/context-menu.js"></script>
+  <script src="../../assets/js/data-table.js"></script>
+  <script src="../../assets/js/db.js"></script>
+  <script src="../../assets/js/dekstop-notification.js"></script>
+  <script src="../../assets/js/dragula.js"></script>
+  <script src="../../assets/js/dropity.js"></script>
+  <script src="../../assets/js/dropzone.js"></script>
+  <script src="../../assets/js/editorDemo.js"></script>
+  <script src="../../assets/js/file-upload.js"></script>
+  <script src="../../assets/js/float-chart.js"></script>
+  <script src="../../assets/js/form-addons.js"></script>
+  <script src="../../assets/js/form-repeater.js"></script>
+  <script src="../../assets/js/form-validation.js"></script>
+  <script src="../../assets/js/formpickers.js"></script>
+  <script src="../../assets/js/google-charts.js"></script>
+  <script src="../../assets/js/google-maps.js"></script>
+  <script src="../../assets/js/horizontal-menu.js"></script>
+  <script src="../../assets/js/iCheck.js"></script>
+  <script src="../../assets/js/ion-range-slider.js"></script>
+  <script src="../../assets/js/jq.tablesort.js"></script>
+  <script src="../../assets/js/jquery-file-upload.js"></script>
+  <script src="../../assets/js/select2.js"></script>
+  <script src="../../assets/js/morris.js"></script>
+  <script src="../../assets/js/js-grid.js"></script>
+  <script src="../../assets/js/just-gage.js"></script>
+  <script src="../../assets/js/light-gallery.js"></script>
+  <script src="../../assets/js/mapeal.js"></script>
+  <script src="../../assets/js/mapeal_example_2.js"></script>
+  <script src="../../assets/js/mapeal_example_3.js"></script>
+  <script src="../../assets/js/maps.js"></script>
+  <script src="../../assets/js/misc.js"></script>
+  <script src="../../assets/js/modal-demo.js"></script>
+  <script src="../../assets/js/morris.js"></script>
+  <script src="../../assets/js/no-ui-slider.js"></script>
+  <script src="../../assets/js/owl-carousel.js"></script>
+  <script src="../../assets/js/paginate.js"></script>
+  <script src="../../assets/js/popover.js"></script>
+  <script src="../../assets/js/progress-bar.js"></script>
+  <script src="../../assets/js/sparkline.js"></script>
+  <script src="../../assets/js/tablesorter.js"></script>
+  <script src="../../assets/js/tabs.js"></script>
+  <script src="../../assets/js/tight-grid.js"></script>
+  <script src="../../assets/js/toastDemo.js"></script>
+  <script src="../../assets/js/tooltips.js"></script>
+  <script src="../../assets/js/typehead.js"></script>
+  <script src="../../assets/js/wizard.js"></script>
+  <script src="../../assets/js/x-editable.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.js" integrity="sha512-6WOG76AXc8rlgtGYLGhDg7lIzZG2Cc+VrSamvgpeBYgxauGuoMua6uKll4OsZ0JvVSt12lRX/9uCmXzkt3/wfg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/downloadjs/1.4.8/download.js" integrity="sha512-mxCAjvjp0jvMdGRIEvAHOCGL6BOucqWpTBXwchElsPKNw7BEegHviDHPnYrOrzgzBiw3GD/Q1ibpA5nlFPYDMw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

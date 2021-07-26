@@ -20,6 +20,13 @@ use App\Http\Controllers\Payroll\PayrollOverviewController;
 use App\Http\Controllers\Payroll\PayRunController;
 use App\Http\Controllers\Payroll\PayCalendarController;
 use App\Http\Controllers\Payroll\ReportsController;
+use App\Http\Controllers\Cargo\QuotationController;
+use App\Http\Controllers\Cargo\JobOrderController;
+use App\Http\Controllers\Cargo\ItemCostController;
+use App\Http\Controllers\Cargo\UnitController;
+use App\Http\Controllers\Cargo\CargoPortController;
+use App\Http\Controllers\Cargo\AirlinesController;
+use App\Http\Controllers\Cargo\ConsigneeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -73,3 +80,19 @@ Route::get('/payroll/pay-run', [PayRunController::class, 'index'])->name('Payrol
 Route::get('/payroll/pay-calendar', [PayCalendarController::class, 'index'])->name('Payroll.pay-calendar');
 
 Route::get('/payroll/reports', [ReportsController::class, 'index'])->name('Payroll.reports');
+
+Route::get('/cargo/quotation', [QuotationController::class, 'index'])->name('Cargo.quotation');
+
+Route::get('/cargo/quotation/add-quotation', [QuotationController::class, 'edit'])->name('Cargo.modals.add-quotation');
+
+Route::get('/cargo/job-order', [JobOrderController::class, 'index'])->name('Cargo.job-order');
+
+Route::get('/cargo/item-cost', [ItemCostController::class, 'index'])->name('Cargo.item-cost');
+
+Route::get('/cargo/unit', [UnitController::class, 'index'])->name('Cargo.unit');
+
+Route::get('/cargo/cargo-port', [CargoPortController::class, 'index'])->name('Cargo.cargo-port');
+
+Route::get('/cargo/airlines', [AirlinesController::class, 'index'])->name('Cargo.airlines');
+
+Route::get('/cargo/consignee', [ConsigneeController::class, 'index'])->name('Cargo.consignee');

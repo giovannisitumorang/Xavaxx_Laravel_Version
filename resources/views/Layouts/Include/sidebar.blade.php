@@ -1,9 +1,7 @@
 <nav class="sidebar sidebar-offcanvas sidebar-dark" id="sidebar">
         <ul class="nav">
-          <li class="nav-item nav-profile">
-                        <img src="../assets/images/888084082929190.png" alt="profile image">
-          
-            <p class="text-center font-weight-medium">Demo</p>
+          <li class="nav-item nav-profile">            
+          @yield('image')
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="/">
@@ -161,7 +159,7 @@
               </ul>
             </div>
           </li>
-          <!-- <li class="nav-item">
+          <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#cargo" aria-expanded="false" aria-controls="cargo">
               <i class="menu-icon icon-plane"></i>
               <span class="menu-title">Cargo</span>
@@ -169,31 +167,31 @@
             <div class="collapse " id="cargo">
               <ul class="nav flex-column sub-menu">
                  <li class="nav-item ">
-                  <a class="nav-link" href="http://beta.xavaxx.com/quotation">Quotation</a>
+                  <a class="nav-link" href="/cargo/quotation">Quotation</a>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="http://beta.xavaxx.com/job-order">Job Order</a>
+                  <a class="nav-link" href="/cargo/job-order">Job Order</a>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="http://beta.xavaxx.com/item-cost">Item Cost</a>
+                  <a class="nav-link" href="/cargo/item-cost">Item Cost</a>
                 </li>
                 <li class="nav-item" >
-                  <a class="nav-link" href="http://beta.xavaxx.com/unit">Unit</a>
+                  <a class="nav-link" href="/cargo/unit">Unit</a>
                 </li>
                 <li class="nav-item" >
-                  <a class="nav-link" href="http://beta.xavaxx.com/cargo-port">Port</a>
+                  <a class="nav-link" href="/cargo/cargo-port">Port</a>
                 </li>
                 <li class="nav-item" >
-                  <a class="nav-link" href="http://beta.xavaxx.com/airlines">Airlines</a>
+                  <a class="nav-link" href="/cargo/airlines">Airlines</a>
                 </li>
                 <li class="nav-item" >
-                  <a class="nav-link" href="http://beta.xavaxx.com/consignee">Consignee</a>
+                  <a class="nav-link" href="/cargo/consignee">Consignee</a>
                 </li>
               </ul>
             </div>
           </li>
          
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#architecture" aria-expanded="false" aria-controls="architecture">
               <i class="menu-icon fa fa-building-o"></i>
               <span class="menu-title">Architecture</span>

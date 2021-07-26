@@ -1,5 +1,11 @@
 @extends('Layouts.master')
-
+@section('images')
+<img src="../../assets/images/888084082929190.png" alt="profile image" class="img-xs rounded-circle">
+@endsection
+@section('image')
+<img src="../../assets/images/888084082929190.png" alt="profile image">
+<p class="text-center font-weight-medium">Demo</p>
+@endsection
 @section('content')
 <div class="main-panel">
         <div class="content-wrapper">
